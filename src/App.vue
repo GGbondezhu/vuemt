@@ -1,0 +1,31 @@
+<template>
+  <div id="app">
+    <div id="nav">
+      <router-link to="/">Index</router-link> |
+      <router-link to="/about">About</router-link>
+    </div>
+    <router-view/>
+  </div>
+</template>
+
+<style>
+	*{margin: 0;padding: 0;}
+	body{background-color: #f8f8f8;}
+	
+	@media (min-width:576px) {
+		
+		.my_footer0{height: 22.5rem;}
+		.my_footer1{height: 38.125rem;}
+		.my_footer2{height: 7.5625rem;}
+	}
+	@media (min-width:992px) {
+		.my_header{height: 6rem;}
+		.my_footer0{height: 16.875rem;}
+		.my_footer1{height: 33.625rem;}
+		.my_footer2{height: 7.5625rem;}
+	}
+	.my_footer{
+		width: 100%;
+	
+	}
+</style>
